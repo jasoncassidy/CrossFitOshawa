@@ -367,3 +367,8 @@ a:hover {
 /*a:active: {
 	color: green;
 }*/
+
+.max-iframe {
+	max-width:60%;
+	margin:0 auto;
+}
