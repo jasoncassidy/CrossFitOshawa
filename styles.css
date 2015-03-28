@@ -116,7 +116,7 @@ ul.section-nav li {
 
 }
 
-/*#coaches img {
+#coaches img {
 	margin: 5px;
     padding: 5px;
     border: 1px solid #0000ff;
@@ -124,7 +124,7 @@ ul.section-nav li {
     width: 100px;
     float: left;
     text-align: left;
-}*/
+}
 
 .crossfit {
 	background:url('../img/squat.jpg');
