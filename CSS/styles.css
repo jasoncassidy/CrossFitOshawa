@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 
 	Bootstrap override
 
@@ -68,9 +67,6 @@ body {
 }
 
 
-
-=======
->>>>>>> origin/master
 a {
 	text-decoration: none;
 }
@@ -79,11 +75,7 @@ html, body {
 	background:url('../img/background2.jpg');
 	text-align: center;
 	font-size: 20px;
-<<<<<<< HEAD
 	margin: 0;
-=======
->>>>>>> origin/master
-}
 
 h1 {
 	font-size: 2rem;
@@ -93,27 +85,20 @@ h1 {
 
 p {
 	font-family: "Helvetica", Georgie, Serif;
-<<<<<<< HEAD
 	/*text-shadow: 2px 1px black;*/ 
-=======
 	text-shadow: 2px 1px black; 
->>>>>>> origin/master
 	word-wrap: break-word;
 }
 
 header, footer {
-<<<<<<< HEAD
 	height:15%;
-=======
 	height:85px;
->>>>>>> origin/master
 	width: 100%;
 	background: grey;
 	display: block;
 	font-size: 1rem;
 	float: right;
 	background:url('../img/background2.jpg');
-<<<<<<< HEAD
 /*	position: fixed;
 */}
 
@@ -141,9 +126,6 @@ header li:hover {
 	border: black solid 2px;
 }
 
-=======
-}
-
 .coaches img {
 	display:inline;
 }
@@ -153,7 +135,6 @@ header li:hover {
     width: 300px;
 }
 */
->>>>>>> origin/master
 ul.header {
 	float: left;
 	list-style: none;
@@ -175,11 +156,8 @@ ul.section-nav {
 ul.section-nav li {
 	display: inline-block;
 	vertical-align: top;
-<<<<<<< HEAD
 	padding: 1px 7px;
-=======
 	padding: 7px;
->>>>>>> origin/master
 	color: white;
 	font-size: 0.9em;
 }
@@ -209,11 +187,8 @@ ul.section-nav li {
 }
 
 .welcome h1 {
-<<<<<<< HEAD
 	padding-top:30px;
-=======
 	padding-top:10px;
->>>>>>> origin/master
 	color: white;
 	font-weight: bold;
 }
@@ -221,19 +196,16 @@ ul.section-nav li {
 .welcome p {
 	word-wrap: break-word;
 	text-align: center;
-<<<<<<< HEAD
 	width: 50%;
 	display: block;
 	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-=======
 	width: 500px;
 	display: block;
 /*	padding-left: 375px;*/
 	 margin-left: auto;
 	 margin-right: auto;
->>>>>>> origin/master
 }
 
 .coaches {
@@ -247,8 +219,6 @@ ul.section-nav li {
 
 }
 
-<<<<<<< HEAD
-=======
 /*#coaches img {
 	margin: 5px;
     padding: 5px;
@@ -259,33 +229,28 @@ ul.section-nav li {
     text-align: left;
 }*/
 
->>>>>>> origin/master
 .crossfit {
 	background:url('../img/squat.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
 	width: 100%;
-<<<<<<< HEAD
 	padding: 5px;
-=======
+
 	padding: 15px;
->>>>>>> origin/master
 	color: white;
 	text-align: left;
 }
 
 .crossfit p{
-<<<<<<< HEAD
 	max-height: 50%;
 	max-width: 50%;
 	padding-top: 1px;
 	display: inline-block;
-=======
+
 	height:80px;
 	width: 50%;
 	padding-top: 25px;
->>>>>>> origin/master
 }
 
 
@@ -334,8 +299,6 @@ ul.section-nav li {
 	width: 100%;
 	padding: 25px;
 }
-
-<<<<<<< HEAD
 .pricing li{
 	padding: 5px;
 	font-weight: bold;
@@ -347,8 +310,6 @@ ul.section-nav li {
 	position: auto;
 }
 
-=======
->>>>>>> origin/master
 .location {
 	background:url('../img/bars.jpg');
 	background-size: cover;
@@ -404,10 +365,7 @@ form {
 	color: black;
 }
 
-input[type="text"],
-<<<<<<< HEAD
-input[type="email"],
-=======
+input[type="text"],input[type="email"],
 input[type="password"],
 input[type="date"],
 input[type="datetime"],
@@ -417,7 +375,6 @@ input[type="search"],
 input[type="tel"],
 input[type="time"],
 input[type="url"],
->>>>>>> origin/master
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -432,10 +389,7 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
-<<<<<<< HEAD
   cursor: pointer;
-=======
->>>>>>> origin/master
 }
 
 select {
@@ -444,11 +398,8 @@ select {
   border-radius: 2px;
 }
 
-<<<<<<< HEAD
 button:hover {
 	background-color: black;
-=======
-button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: #black;
@@ -461,7 +412,6 @@ button {
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
->>>>>>> origin/master
 }
 
 fieldset {
@@ -524,12 +474,11 @@ background: url('../img/twitter.png');
 	margin-right: 10px;
 }
 
-<<<<<<< HEAD
 .max-iframe {
 	max-width:60%;
 	margin:0 auto;
 }
-=======
+
 /*a:link { 
     color: white;
 }
@@ -545,4 +494,3 @@ a:hover {
 /*a:active: {
 	color: green;
 }*/
->>>>>>> origin/master
