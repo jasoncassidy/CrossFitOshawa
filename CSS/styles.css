@@ -67,6 +67,7 @@ body {
 }
 
 
+
 a {
 	text-decoration: none;
 }
@@ -76,6 +77,7 @@ html, body {
 	text-align: center;
 	font-size: 20px;
 	margin: 0;
+}
 
 h1 {
 	font-size: 2rem;
@@ -86,13 +88,11 @@ h1 {
 p {
 	font-family: "Helvetica", Georgie, Serif;
 	/*text-shadow: 2px 1px black;*/ 
-	text-shadow: 2px 1px black; 
 	word-wrap: break-word;
 }
 
 header, footer {
 	height:15%;
-	height:85px;
 	width: 100%;
 	background: grey;
 	display: block;
@@ -126,15 +126,6 @@ header li:hover {
 	border: black solid 2px;
 }
 
-.coaches img {
-	display:inline;
-}
-
-
-/*div:hover {
-    width: 300px;
-}
-*/
 ul.header {
 	float: left;
 	list-style: none;
@@ -157,7 +148,6 @@ ul.section-nav li {
 	display: inline-block;
 	vertical-align: top;
 	padding: 1px 7px;
-	padding: 7px;
 	color: white;
 	font-size: 0.9em;
 }
@@ -188,7 +178,6 @@ ul.section-nav li {
 
 .welcome h1 {
 	padding-top:30px;
-	padding-top:10px;
 	color: white;
 	font-weight: bold;
 }
@@ -201,11 +190,6 @@ ul.section-nav li {
 	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 500px;
-	display: block;
-/*	padding-left: 375px;*/
-	 margin-left: auto;
-	 margin-right: auto;
 }
 
 .coaches {
@@ -219,16 +203,6 @@ ul.section-nav li {
 
 }
 
-/*#coaches img {
-	margin: 5px;
-    padding: 5px;
-    border: 1px solid #0000ff;
-    height: 100px;
-    width: 100px;
-    float: left;
-    text-align: left;
-}*/
-
 .crossfit {
 	background:url('../img/squat.jpg');
 	background-size: cover;
@@ -236,8 +210,6 @@ ul.section-nav li {
 	height: 100%;
 	width: 100%;
 	padding: 5px;
-
-	padding: 15px;
 	color: white;
 	text-align: left;
 }
@@ -247,10 +219,6 @@ ul.section-nav li {
 	max-width: 50%;
 	padding-top: 1px;
 	display: inline-block;
-
-	height:80px;
-	width: 50%;
-	padding-top: 25px;
 }
 
 
@@ -299,6 +267,7 @@ ul.section-nav li {
 	width: 100%;
 	padding: 25px;
 }
+
 .pricing li{
 	padding: 5px;
 	font-weight: bold;
@@ -365,16 +334,8 @@ form {
 	color: black;
 }
 
-input[type="text"],input[type="email"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
+input[type="text"],
 input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
 textarea,
 select {
   background: rgba(255,255,255,0.1);
@@ -400,18 +361,6 @@ select {
 
 button:hover {
 	background-color: black;
-  padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #black;
-  font-size: 18px;
-  text-align: center;
-  font-style: normal;
-  border-radius: 5px;
-  width: 30%;
-  border: 1px solid #black;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
 }
 
 fieldset {
@@ -478,19 +427,3 @@ background: url('../img/twitter.png');
 	max-width:60%;
 	margin:0 auto;
 }
-
-/*a:link { 
-    color: white;
-}
-
-a:visited {
-	color: white;
-}
-
-a:hover {
-	color: grey;
-}*/
-
-/*a:active: {
-	color: green;
-}*/
