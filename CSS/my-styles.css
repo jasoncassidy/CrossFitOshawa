@@ -38,3 +38,12 @@ body {
 .carousel-indicators li {
 	border-color: #222;
 }
+
+.schedule-cover {
+background:url('../img/tech2.jpg');
+background-attachment: fixed;
+background-position: center;
+background-size:cover;
+height:525px;
+width:100%;
+}
