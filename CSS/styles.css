@@ -321,6 +321,15 @@ ul.section-nav li {
 	list-style-type: none;
 }
 
+.schedule-cover {
+background:url('../img/community.jpg');
+background-attachment: fixed;
+background-position: center;
+background-size:cover;
+height:1000px;
+width:100%;
+}
+
 
 form {
   max-width: 300px;
