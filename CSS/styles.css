@@ -323,11 +323,12 @@ ul.section-nav li {
 
 .schedule-cover {
 background:url('../img/Determination.jpg');
-background-attachment: fixed;
-background-position: center;
+/*background-attachment: fixed;
+*/background-position: center center;
 background-size:cover;
 height:120%;
 width:100%;
+padding: 10px;
 }
 
 
