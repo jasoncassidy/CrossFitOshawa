@@ -322,11 +322,11 @@ ul.section-nav li {
 }
 
 .schedule-cover {
-background:url('../img/community.jpg');
+background:url('../img/Determination.jpg');
 background-attachment: fixed;
 background-position: center;
 background-size:cover;
-height:1000px;
+height:120%;
 width:100%;
 }
 
