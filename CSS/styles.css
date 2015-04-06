@@ -197,7 +197,7 @@ ul.section-nav li {
 	color: white;
 	background-size: cover;
 	background-position: center center;
-	height: 100%;
+	height: 110%;
 	width: 100%;
 	padding: 25px;
 
@@ -328,6 +328,10 @@ background-size:cover;
 height:120%;
 width:100%;
 padding: 5px;
+}
+
+.schedule-cover h1 p {
+	color: white;
 }
 
 
