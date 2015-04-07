@@ -39,11 +39,4 @@ body {
 	border-color: #222;
 }
 
-.schedule-cover {
-background:url('../img/flooring.jpg');
-background-attachment: fixed;
-background-position: center;
-background-size:cover;
-height:1000px;
-width:100%;
-}
+

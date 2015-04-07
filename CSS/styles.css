@@ -34,7 +34,7 @@ body {
 ================================ */
 
 .jumbotron {
-  background:url('../img/Determination.jpg');
+  background:url('../img/kettlebell.jpg');
   background-position: cover;
   text-align: center;
   padding-bottom: 5px;
@@ -63,7 +63,7 @@ body {
 /* Carousel
 ================================ */
 .Carousel {
-	background: url('../img/kettlebell.jpg');
+	background: url('../img/bars.jpg');
 	color: white;
 	background-size: cover;
 }
