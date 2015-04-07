@@ -34,6 +34,7 @@ body {
 ================================ */
 
 .jumbotron {
+  background:url('../img/Determination.jpg');
   text-align: center;
   padding-bottom: 50px;
 }
