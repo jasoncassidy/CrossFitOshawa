@@ -54,6 +54,7 @@ body {
 	background: url('../img/squat.jpg');
 	color: white;
 	background-size: cover;
+	position: top;
 }
 
 .carousel-indicators {
