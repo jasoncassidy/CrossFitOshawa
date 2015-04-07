@@ -321,7 +321,7 @@ ul.section-nav li {
 	list-style-type: none;
 }
 
-.schedule-cover {
+.schedule-img {
 background:url('../img/background2.jpg');
 background-position: center center;
 background-size:cover;
@@ -330,7 +330,7 @@ width:100%;
 padding: 5px;
 }
 
-.schedule-cover h1 p {
+.schedule .schedule-img h1 {
 	color: white;
 }
 
