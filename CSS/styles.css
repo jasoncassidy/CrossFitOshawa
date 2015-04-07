@@ -186,6 +186,7 @@ ul.section-nav li {
 	width: 100%;
 	padding: 15px;
 	text-align: center;
+	text-shadow: 1px 1px black;
 }
 
 .welcome h1 {
