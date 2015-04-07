@@ -332,8 +332,12 @@ padding: 5px;
 
 .schedule-cover h1 {
 	color: white;
+	font-size: bold;
 }
 
+.schedule-cover p {
+	color: white;
+}
 
 form {
   max-width: 300px;
