@@ -35,9 +35,9 @@ body {
 
 .jumbotron {
   background:url('../img/matty3.jpg');
-/*  background-position: cover;
-*/  text-align: center;
-  padding-bottom: 5px;
+  background-position: cover;
+  text-align: center;
+  padding-bottom: 1px;
   height: 110%;
 }
 
