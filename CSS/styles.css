@@ -51,10 +51,9 @@ body {
 /* Carousel
 ================================ */
 .Carousel {
-	background: url('../img/squat.jpg');
+	background: url('../img/bars.jpg');
 	color: white;
 	background-size: cover;
-	position: top;
 }
 
 .carousel-indicators {
