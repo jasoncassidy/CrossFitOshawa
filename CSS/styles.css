@@ -260,7 +260,6 @@ ul.section-nav li {
 	width: 100%;
 	padding: 15px;
 	color: white;
-	text-align: center;
 }
 
 .community p {
@@ -456,4 +455,12 @@ background: url('../img/twitter.png');
 .max-iframe {
 	max-width:60%;
 	margin:0 auto;
+}
+
+.caption h3 {
+	color: white;
+}
+
+.caption p {
+	color: white;
 }
