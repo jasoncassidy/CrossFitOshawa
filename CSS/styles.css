@@ -232,6 +232,7 @@ ul.section-nav li {
 	max-width: 50%;
 	padding-top: 1px;
 	display: inline-block;
+	vertical-align: middle;
 }
 
 
