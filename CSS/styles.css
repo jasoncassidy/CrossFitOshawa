@@ -15,6 +15,8 @@ margin-bottom: 10px;
 .thumbnail {
 	background-color: black;
 }
+
+
 /* 
 	End Bootstrap override
 
@@ -40,6 +42,7 @@ body {
   text-align: center;
   padding-bottom: 1px;
   height: 100%;
+  margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -121,6 +124,39 @@ header li:hover {
 	padding: 0px;
 	margin: 0;
 	border: black solid 2px;
+}
+
+.connector {
+	position: relative;
+	width:100%;
+	background: black;
+}
+
+.connector h3 {
+	text-align: center;
+	color: white;
+	height: auto;
+	text-transform: uppercase;
+	margin: 0;
+  	padding: 1em;
+}
+
+.arrow {
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 30px 30px 0 30px;
+	border-color: black transparent transparent transparent;
+	top: 74px;
+	left: 50%;
+	right: 50%;
+	margin-left: -25px;
+	z-index: 1;
+	}
+
+.pad_sec_top {
+	padding-top: 48px !important;
 }
 
 #kevin {
@@ -229,8 +265,7 @@ ul.section-nav li {
 }
 
 .crossfit p{
-	max-height: 50%;
-	max-width: 50%;
+	margin: 0 auto;
 	padding-top: 1px;
 	display: inline-block;
 	vertical-align: middle;
@@ -251,7 +286,7 @@ ul.section-nav li {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	width: 50%;
+	width: 70%;
 }
 
 
@@ -270,7 +305,7 @@ ul.section-nav li {
 	word-wrap: break-word;
 	margin-left: auto;
 	margin-right: auto;
-   	width: 45%;
+   	width: 70%;
 }
 
 .pricing {
@@ -327,7 +362,7 @@ ul.section-nav li {
 	color: white;
 	background-size: cover;
 	background-position: center center;
-	height: 115%;
+	height: 100%;
 	width: 100%;
 	padding: 15px;
 }
@@ -337,12 +372,12 @@ ul.section-nav li {
 }
 
 .schedule-cover {
-background:url('../img/background2.jpg');
-background-position: center center;
-background-size:cover;
-height:120%;
-width:100%;
-padding: 5px;
+	background:url('../img/background2.jpg');
+	background-position: center center;
+	background-size:cover;
+	height:120%;
+	width:100%;
+	padding: 5px;
 }
 
 .schedule-cover h1 {
@@ -356,10 +391,11 @@ padding: 5px;
 
 form {
   max-width: 300px;
-  margin: 10px auto;
+  margin: auto;
   padding: 10px 10px;
   background: darkgrey;
   border-radius: 8px;
+
 }
 
 #started h1 {
