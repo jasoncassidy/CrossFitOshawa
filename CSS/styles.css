@@ -329,6 +329,27 @@ ul.section-nav li {
 	position: auto;
 }
 
+.pph-header {
+	background:url('../img/hockey.jpg');
+	color: white;
+	background-size: cover;
+	background-position: center center;
+	height: 115%;
+	width: 100%;
+	padding: 15px;
+}
+
+.tires {
+	background:url('../img/tires.jpg');
+	color: white;
+	background-size: cover;
+	background-position: center center;
+	height: 115%;
+	width: 100%;
+	padding: 15px;
+}
+}
+
 .location {
 	background:url('../img/bars.jpg');
 	background-size: cover;
