@@ -42,7 +42,7 @@ body {
   background-position: cover;
   text-align: center;
   padding-bottom: 1px;
-  height: 90%;
+  height: 70%;
   margin-bottom: 0;
 }
 
@@ -99,7 +99,6 @@ html, body {
 h1 {
 	font-size: 2rem;
 	font-weight: bold;
-	padding-top: 1rem;
 }
 
 p {
@@ -148,7 +147,7 @@ header li:hover {
 	border-style: solid;
 	border-width: 30px 30px 0 30px;
 	border-color: black transparent transparent transparent;
-	top: 74px;
+	top: 63px;
 	left: 50%;
 	right: 50%;
 	margin-left: -25px;
@@ -160,16 +159,16 @@ header li:hover {
 }
 
 #kevin {
-	display:inline-block;
-	max-width: 45%;
+	display: block;
+	max-width: 50%;
 	max-height: 50%;
 	margin: auto;
 	border: black solid 2px;
 }
 
 #cam {
-	display:inline-block;
-	max-width: 45%;
+	display:block;
+	max-width: 50%;
 	max-height: 50%;
 	margin: auto;
 	border: black solid 2px;
@@ -248,8 +247,9 @@ ul.section-nav li {
 	background-size: cover;
 	background-position: center center;
 	height: 115%;
-	width: 100%;
+	width: 105%;
 	padding: 2px;
+	padding-top: 20px;
 
 }
 
@@ -277,16 +277,16 @@ ul.section-nav li {
 	color: white;
 	background-size: cover;
 	background-position: center center;
-	height: 115%;
+	height: 100%;
 	width: 100%;
-	padding: 15px;
+	padding: 1px;
 }
 
 .workout p {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	width: 70%;
+	width: 90%;
 }
 
 
@@ -305,7 +305,7 @@ ul.section-nav li {
 	word-wrap: break-word;
 	margin-left: auto;
 	margin-right: auto;
-   	width: 70%;
+   	width: 90%;
 }
 
 .pricing {
@@ -520,7 +520,7 @@ background: url('../img/twitter.png');
 
 /* Media Queries */
 
-@media only screen and (min-width: 320px) (max-width: 768px) {
+@media only screen and (min-width: 319px) {
 	p {
 		font-size: 18px;
 		width: 90%;
@@ -556,28 +556,34 @@ background: url('../img/twitter.png');
 		width: 90%;
 	}
 
-	.workout p {
-		width: 90%;
-		padding: 0;
-	}
-
 	.welcome p {
 		width: 100%;
 		margin:0;
-		padding: 0;
+		padding: 18px;
 	}
 }
 
-@media only screen and (min-width: 768px) (max-width: 800px) {
+@media only screen and (min-width: 568px) (max-width: 800px) {
 	 p {
 	 	vertical-align: middle;
 	 	font-size: 20px;
 	 	width: 95%;
 	 }
+
+	#kevin img {
+		display: inline-block;
+		max-width: 40%;
+	}
+
+	#cam img {
+		display:inline-block;
+		max-width: 40%;
+	}
+
 	}
 
 @media only screen and (min-width: 800px) (max-width: 1450px) {
 	p {
-		width:70%;
+		width:60%;
 	}
 }
