@@ -559,11 +559,15 @@ background: url('../img/twitter.png');
 	.welcome p {
 		width: 100%;
 		margin:0;
-		padding: 18px;
+		padding: 20px;
 	}
+
+	.pricing {
+		padding-top: 10px;
+		width: auto;
 }
 
-@media only screen and (min-width: 568px) (max-width: 800px) {
+@media only screen and (min-width: 568px) {
 	 p {
 	 	vertical-align: middle;
 	 	font-size: 20px;
@@ -580,10 +584,21 @@ background: url('../img/twitter.png');
 		max-width: 40%;
 	}
 
+	.welcome p {
+		width: 65%;
+		margin-left: 20%;
+		padding-top: 40px;
+
 	}
 
-@media only screen and (min-width: 800px) (max-width: 1450px) {
+@media only screen and (min-width: 800px)  {
 	p {
 		width:60%;
+	}
+
+	.welcome p {
+		width: 50%;
+		margin-left: 40%;
+		padding-top: 70px;
 	}
 }
