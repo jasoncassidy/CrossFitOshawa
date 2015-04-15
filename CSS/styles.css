@@ -27,6 +27,8 @@ margin-bottom: 10px;
 
 body {
 	padding-top: 50px;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 
 .container {
