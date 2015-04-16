@@ -19,6 +19,8 @@ color: white;
 }
 
 
+
+
 /* 
 	End Bootstrap override
 
@@ -163,6 +165,11 @@ header li:hover {
 	padding-top: 48px !important;
 }
 
+.no_pad_leftright {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 #kevin {
 	display: inline-block;
 	width: 300px;
@@ -251,7 +258,7 @@ ul.section-nav li {
 	background-size: cover;
 	background-position: center center;
 	height: 115%;
-	width: 105%;
+	width: 100%;
 	padding: 2px;
 	padding-top: 20px;
 
@@ -414,6 +421,7 @@ ul.section-nav li {
 
 .schedule-cover li {
 	color: white;
+	padding-top: 10px;
 }
 
 form {
