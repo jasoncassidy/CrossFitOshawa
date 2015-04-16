@@ -72,6 +72,7 @@ body {
 .Carousel {
 	background: url('../img/blood.jpg');
 	color: white;
+	background-position: left bottom;
 	background-size: cover;
 }
 
@@ -162,14 +163,14 @@ header li:hover {
 
 #kevin {
 	display: inline-block;
-	width: 200px;
+	width: 300px;
 	margin: auto;
 	border: black solid 2px;
 }
 
 #cam {
 	display: inline-block;
-	width: 200px;
+	width: 280px;
 	margin: auto;
 	border: black solid 2px;
 }
@@ -257,7 +258,7 @@ ul.section-nav li {
 .crossfit {
 	background:url('../img/squat.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: right top;
 	height: 115%;
 	width: 100%;
 	padding: 5px;
@@ -277,7 +278,7 @@ ul.section-nav li {
 	background: url('../img/mace2.jpg');
 	color: white;
 	background-size: cover;
-	background-position: center center;
+	background-position: left top;
 	height: 100%;
 	width: 100%;
 	padding: 1px;
@@ -323,9 +324,9 @@ ul.section-nav li {
 	padding: 5px;
 	font-weight: bold;
 	box-shadow: 4px black;
-	background-color: black;
 	border-radius: 10%;
-	display: inline-block;
+	padding-top: 20px;
+	display: block;
 	margin-bottom: 10px;
 	position: auto;
 }
@@ -432,7 +433,7 @@ select {
   height: auto;
   margin: 0;
   outline: 0;
-  padding: 5px;
+  padding: 20px;
   width: 100%;
   background-color: #e8eeef;
   color: #8a97a0;
@@ -585,14 +586,14 @@ background: url('../img/twitter.png');
 	 	width: 95%;
 	 }
 
-	#kevin img {
+	#kevin {
 		display: inline-block;
-		max-width: 40%;
+		width: 230px;
 	}
 
-	#cam img {
+	#cam {
 		display:inline-block;
-		max-width: 40%;
+		width: 230px;
 	}
 
 	.welcome {
@@ -605,7 +606,3 @@ background: url('../img/twitter.png');
 		padding-top: 40px;
 
 	}
-
-@media only screen and (min-width: 1024px) {
-	
-}
