@@ -18,6 +18,9 @@ color: white;
 	background-color: black;
 }
 
+.btn-group-vertical>.btn, .btn-group>.btn {
+  float: none;
+}
 
 
 
